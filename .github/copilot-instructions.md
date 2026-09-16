@@ -98,3 +98,6 @@ The application lives at the repository root:
 - `e2e-tests/`: Playwright E2E tests (home, games, accessibility)
 - `drizzle.config.ts`, `vitest.config.ts`, `astro.config.mjs`, `playwright.config.ts`: tooling config
 - `README.md`: Project documentation
+
+- Every exported function must have a TSDoc comment explaining its purpose, parameters, and return value.
+- Every source file must begin with a comment block explaining the purpose of the file before imports or code.
